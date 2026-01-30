@@ -1,0 +1,74 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "question": "What personal protective equipment is required for electrical work?",
+      "expected_source": "safety_procedures.txt",
+      "expected_keywords": ["hard hats", "safety glasses", "insulated gloves", "steel-toed boots"],
+      "category": "safety"
+    },
+    {
+      "id": 2,
+      "question": "How much does GFCI outlet installation cost?",
+      "expected_source": "pricing_guide.txt",
+      "expected_keywords": ["$175", "$225", "GFCI"],
+      "category": "pricing"
+    },
+    {
+      "id": 3,
+      "question": "What was the total value of the TechCorp project?",
+      "expected_source": "project_overview.txt",
+      "expected_keywords": ["$145,000", "TechCorp"],
+      "category": "project"
+    },
+    {
+      "id": 4,
+      "question": "What are the lockout/tagout procedures?",
+      "expected_source": "safety_procedures.txt",
+      "expected_keywords": ["identify energy sources", "lockout devices", "verify zero energy"],
+      "category": "safety"
+    },
+    {
+      "id": 5,
+      "question": "What is the hourly rate for a master electrician?",
+      "expected_source": "pricing_guide.txt",
+      "expected_keywords": ["$125", "hour", "master"],
+      "category": "pricing"
+    },
+    {
+      "id": 6,
+      "question": "How long did the TechCorp project take?",
+      "expected_source": "project_overview.txt",
+      "expected_keywords": ["6 weeks", "duration"],
+      "category": "project"
+    },
+    {
+      "id": 7,
+      "question": "What training certifications are required?",
+      "expected_source": "safety_procedures.txt",
+      "expected_keywords": ["OSHA 30-hour", "arc flash", "first aid", "CPR"],
+      "category": "safety"
+    },
+    {
+      "id": 8,
+      "question": "How much does a service panel upgrade cost?",
+      "expected_source": "pricing_guide.txt",
+      "expected_keywords": ["$2,500", "$3,500", "100A", "200A"],
+      "category": "pricing"
+    },
+    {
+      "id": 9,
+      "question": "What equipment was used in the TechCorp project?",
+      "expected_source": "project_overview.txt",
+      "expected_keywords": ["Schneider Electric", "Lutron", "APC UPS"],
+      "category": "project"
+    },
+    {
+      "id": 10,
+      "question": "What is the minimum service call charge?",
+      "expected_source": "pricing_guide.txt",
+      "expected_keywords": ["$150", "minimum", "service call"],
+      "category": "pricing"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "measurements": [
+    {
+      "operation": "pipeline_initialization",
+      "duration_seconds": 3.0209851264953613,
+      "metadata": {}
+    },
+    {
+      "operation": "document_indexing",
+      "duration_seconds": 0.27138829231262207,
+      "metadata": {}
+    },
+    {
+      "operation": "retrieval",
+      "duration_seconds": 0.053221940994262695,
+      "metadata": {}
+    },
+    {
+      "operation": "generation",
+      "duration_seconds": 5.18280291557312,
+      "metadata": {}
+    },
+    {
+      "operation": "complete_query",
+      "duration_seconds": 5.112216949462891,
+      "metadata": {}
+    },
+    {
+      "operation": "retrieval",
+      "duration_seconds": 0.11343002319335938,
+      "metadata": {}
+    },
+    {
+      "operation": "generation",
+      "duration_seconds": 3.051436185836792,
+      "metadata": {}
+    },
+    {
+      "operation": "complete_query",
+      "duration_seconds": 3.2691588401794434,
+      "metadata": {}
+    },
+    {
+      "operation": "retrieval",
+      "duration_seconds": 0.1384110450744629,
+      "metadata": {}
+    },
+    {
+      "operation": "generation",
+      "duration_seconds": 3.965298891067505,
+      "metadata": {}
+    },
+    {
+      "operation": "complete_query",
+      "duration_seconds": 4.607232093811035,
+      "metadata": {}
+    },
+    {
+      "operation": "retrieval",
+      "duration_seconds": 0.10962724685668945,
+      "metadata": {}
+    },
+    {
+      "operation": "generation",
+      "duration_seconds": 3.4264419078826904,
+      "metadata": {}
+    },
+    {
+      "operation": "complete_query",
+      "duration_seconds": 3.39790415763855,
+      "metadata": {}
+    },
+    {
+      "operation": "retrieval",
+      "duration_seconds": 0.07448911666870117,
+      "metadata": {}
+    },
+    {
+      "operation": "generation",
+      "duration_seconds": 2.617915153503418,
+      "metadata": {}
+    },
+    {
+      "operation": "complete_query",
+      "duration_seconds": 2.601933240890503,
+      "metadata": {}
+    }
+  ],
+  "statistics": {
+    "pipeline_initialization": {
+      "count": 1,
+      "total_seconds": 3.0209851264953613,
+      "avg_seconds": 3.0209851264953613,
+      "min_seconds": 3.0209851264953613,
+      "max_seconds": 3.0209851264953613
+    },
+    "document_indexing": {
+      "count": 1,
+      "total_seconds": 0.27138829231262207,
+      "avg_seconds": 0.27138829231262207,
+      "min_seconds": 0.27138829231262207,
+      "max_seconds": 0.27138829231262207
+    },
+    "retrieval": {
+      "count": 5,
+      "total_seconds": 0.4891793727874756,
+      "avg_seconds": 0.09783587455749512,
+      "min_seconds": 0.053221940994262695,
+      "max_seconds": 0.1384110450744629
+    },
+    "generation": {
+      "count": 5,
+      "total_seconds": 18.243895053863525,
+      "avg_seconds": 3.648779010772705,
+      "min_seconds": 2.617915153503418,
+      "max_seconds": 5.18280291557312
+    },
+    "complete_query": {
+      "count": 5,
+      "total_seconds": 18.988445281982422,
+      "avg_seconds": 3.7976890563964845,
+      "min_seconds": 2.601933240890503,
+      "max_seconds": 5.112216949462891
+    }
+  }
+}

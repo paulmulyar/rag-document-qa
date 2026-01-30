@@ -1,0 +1,300 @@
+{
+  "retrieval": {
+    "accuracy_percent": 100.0,
+    "correct_retrievals": 10,
+    "total_tests": 10,
+    "detailed_results": [
+      {
+        "question": "What personal protective equipment is required for electrical work?",
+        "expected_source": "safety_procedures.txt",
+        "retrieved_sources": [
+          "safety_procedures.txt",
+          "project_overview.txt",
+          "safety_procedures.txt",
+          "project_overview.txt",
+          "safety_procedures.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.6376361846923828
+      },
+      {
+        "question": "How much does GFCI outlet installation cost?",
+        "expected_source": "pricing_guide.txt",
+        "retrieved_sources": [
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.6751194000244141
+      },
+      {
+        "question": "What was the total value of the TechCorp project?",
+        "expected_source": "project_overview.txt",
+        "retrieved_sources": [
+          "project_overview.txt",
+          "pricing_guide.txt",
+          "project_overview.txt",
+          "project_overview.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.4332883954048157
+      },
+      {
+        "question": "What are the lockout/tagout procedures?",
+        "expected_source": "safety_procedures.txt",
+        "retrieved_sources": [
+          "safety_procedures.txt",
+          "safety_procedures.txt",
+          "project_overview.txt",
+          "safety_procedures.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.4984809160232544
+      },
+      {
+        "question": "What is the hourly rate for a master electrician?",
+        "expected_source": "pricing_guide.txt",
+        "retrieved_sources": [
+          "pricing_guide.txt",
+          "project_overview.txt",
+          "project_overview.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.6053028106689453
+      },
+      {
+        "question": "How long did the TechCorp project take?",
+        "expected_source": "project_overview.txt",
+        "retrieved_sources": [
+          "project_overview.txt",
+          "project_overview.txt",
+          "pricing_guide.txt",
+          "project_overview.txt",
+          "project_overview.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.45268118381500244
+      },
+      {
+        "question": "What training certifications are required?",
+        "expected_source": "safety_procedures.txt",
+        "retrieved_sources": [
+          "safety_procedures.txt",
+          "safety_procedures.txt",
+          "project_overview.txt",
+          "pricing_guide.txt",
+          "project_overview.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.4816979169845581
+      },
+      {
+        "question": "How much does a service panel upgrade cost?",
+        "expected_source": "pricing_guide.txt",
+        "retrieved_sources": [
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "project_overview.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.734569251537323
+      },
+      {
+        "question": "What equipment was used in the TechCorp project?",
+        "expected_source": "project_overview.txt",
+        "retrieved_sources": [
+          "project_overview.txt",
+          "project_overview.txt",
+          "project_overview.txt",
+          "safety_procedures.txt",
+          "project_overview.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.4335780143737793
+      },
+      {
+        "question": "What is the minimum service call charge?",
+        "expected_source": "pricing_guide.txt",
+        "retrieved_sources": [
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt",
+          "pricing_guide.txt"
+        ],
+        "correct": true,
+        "top_similarity": 0.5470266938209534
+      }
+    ]
+  },
+  "quality": {
+    "keyword_match_percent": 93.54838709677419,
+    "keywords_matched": 29,
+    "total_keywords": 31,
+    "detailed_results": [
+      {
+        "question": "What personal protective equipment is required for electrical work?",
+        "expected_keywords": [
+          "hard hats",
+          "safety glasses",
+          "insulated gloves",
+          "steel-toed boots"
+        ],
+        "matched_keywords": [
+          "hard hats",
+          "safety glasses",
+          "insulated gloves",
+          "steel-toed boots"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on document 1 (safety_procedures.txt), the following personal protective equipment (ppe) is required for electrical work:\n\n1. **hard hats** - required on all job sites\n2. **safety glasses with s"
+      },
+      {
+        "question": "How much does GFCI outlet installation cost?",
+        "expected_keywords": [
+          "$175",
+          "$225",
+          "GFCI"
+        ],
+        "matched_keywords": [
+          "$175",
+          "$225",
+          "GFCI"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on document 1 (pricing_guide.txt), **gfci outlet installation costs $175-$225 per outlet**.\n\nthis pricing is listed under the residential services section, specifically under \"outlet and switch "
+      },
+      {
+        "question": "What was the total value of the TechCorp project?",
+        "expected_keywords": [
+          "$145,000",
+          "TechCorp"
+        ],
+        "matched_keywords": [
+          "$145,000",
+          "TechCorp"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on the provided documents, the total value of the techcorp project was **$145,000**.\n\nthis information comes from document 3 (project_overview.txt), which states \"total project value: $145,000\" "
+      },
+      {
+        "question": "What are the lockout/tagout procedures?",
+        "expected_keywords": [
+          "identify energy sources",
+          "lockout devices",
+          "verify zero energy"
+        ],
+        "matched_keywords": [
+          "verify zero energy"
+        ],
+        "match_rate": 33.33333333333333,
+        "answer_preview": "based on document 1 (safety_procedures.txt), the lockout/tagout procedures are:\n\n1. identify all energy sources\n2. notify affected employees\n3. shut down equipment using normal procedures\n4. isolate e"
+      },
+      {
+        "question": "What is the hourly rate for a master electrician?",
+        "expected_keywords": [
+          "$125",
+          "hour",
+          "master"
+        ],
+        "matched_keywords": [
+          "$125",
+          "hour",
+          "master"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on document 1 (pricing_guide.txt), the hourly rate for a master electrician is **$125/hour**.\n\nthe document also notes that this rate increases to 1.5x the regular rate for emergency service (af"
+      },
+      {
+        "question": "How long did the TechCorp project take?",
+        "expected_keywords": [
+          "6 weeks",
+          "duration"
+        ],
+        "matched_keywords": [
+          "6 weeks",
+          "duration"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on the provided documents, the techcorp seattle office project took **6 weeks** to complete.\n\nthis information is found in document 2 (project_overview.txt), which specifies the project duration"
+      },
+      {
+        "question": "What training certifications are required?",
+        "expected_keywords": [
+          "OSHA 30-hour",
+          "arc flash",
+          "first aid",
+          "CPR"
+        ],
+        "matched_keywords": [
+          "OSHA 30-hour",
+          "arc flash",
+          "first aid",
+          "CPR"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on the provided documents, the following training certifications are required:\n\n**from document 1 (safety_procedures.txt):**\n\n1. **osha 30-hour construction safety certification**\n2. **arc flash"
+      },
+      {
+        "question": "How much does a service panel upgrade cost?",
+        "expected_keywords": [
+          "$2,500",
+          "$3,500",
+          "100A",
+          "200A"
+        ],
+        "matched_keywords": [
+          "$2,500",
+          "$3,500",
+          "100A",
+          "200A"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on document 1 (pricing_guide.txt), a service panel upgrade costs:\n\n**$2,500-$3,500** for a 100a to 200a upgrade\n\nthis price includes:\n- new panel\n- permits\n- inspection\n\n**additional cost:** if "
+      },
+      {
+        "question": "What equipment was used in the TechCorp project?",
+        "expected_keywords": [
+          "Schneider Electric",
+          "Lutron",
+          "APC UPS"
+        ],
+        "matched_keywords": [
+          "Schneider Electric",
+          "Lutron",
+          "APC UPS"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on the provided documents, the following equipment was used in the techcorp project:\n\n**equipment used:**\n- schneider electric circuit breakers\n- lutron lighting control systems\n- category 6a ne"
+      },
+      {
+        "question": "What is the minimum service call charge?",
+        "expected_keywords": [
+          "$150",
+          "minimum",
+          "service call"
+        ],
+        "matched_keywords": [
+          "$150",
+          "minimum",
+          "service call"
+        ],
+        "match_rate": 100.0,
+        "answer_preview": "based on the provided documents, the **minimum service call charge is $150**, which covers the first hour of service.\n\nfor emergency service calls, the minimum charge is higher at **$250**.\n\nthis info"
+      }
+    ]
+  },
+  "summary": {
+    "retrieval_accuracy": 100.0,
+    "keyword_match_rate": 93.54838709677419
+  }
+}
