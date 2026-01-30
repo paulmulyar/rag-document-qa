@@ -9,10 +9,10 @@ from typing import List, Dict, Optional
 from dotenv import load_dotenv
 from anthropic import Anthropic
 
-from document_loader import DocumentLoader
-from text_chunker import TextChunker
-from embeddings import EmbeddingsGenerator
-from vector_store import VectorStore
+from src.document_loader import DocumentLoader
+from src.text_chunker import TextChunker
+from src.embeddings import EmbeddingsGenerator
+from src.vector_store import VectorStore
 
 load_dotenv()
 
